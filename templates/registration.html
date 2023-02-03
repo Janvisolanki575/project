@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration from</title>
+    <!-- <link rel="icon" type="image/png" href="static/assets/images/favicon.png">
+    <link rel="stylesheet" href="static/assets/css/bootstrapa.min.css">
+    <link rel="stylesheet" href="static/assets/css/owl.carousela.min.css">
+    <link rel="stylesheet" href="static/assets/css/font-awesomea.min.css">
+    <link rel="stylesheet" href="static/assets/css/aosa.css">
+    <link rel="stylesheet" href="static/assets/css/swipera.min.css">
+    <link rel="stylesheet" href="static/assets/css/jquery.fancyboxa.min.css">
+    <link rel="stylesheet" href="static/stylea.css"> -->
+</head>
+
+<body>
+<div>
+<header>
+	{% include "heder.html" %}
+</header>
+
+    </div>
+<div style="height:30px;width:auto;"></div>
+
+  
+    <div class="page-wrapper section-ptb-3" data-aos="fade-up">
+        <div class="container" style="background-color:#f8f9fa;padding:50px;">
+            <div class="row">
+                <div class="col-md-10 mx-auto">
+                    <div class="apply-wrapper">
+                        <h2>New Registration</h2>
+                        <form action="/intreg"  method="post">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="user_last_name">Full Name</label>
+                                        <input type="text" class="form-control" placeholder="Enter your Name" required="" name="name">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="user_first_name">No</label>
+                                        <input type="text" class="form-control" placeholder="No" required="" name="en">
+                                    </div>
+                                </div> -->
+                                
+                             <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="user_last_name">Gender</label>
+<!--                                        <input type="text" class="form-control" placeholder="Gen" name="gen">-->
+                                        <select class="form-control" name="gen">
+                                            <option value="Male" class="form-control"  required="" >Male</option>
+                                            <option value="Female" class="form-control"  required="" >Female</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="user_phone_number">Phone Number</label>
+                                        <input type="text" class="form-control" placeholder="Phone Number" name="phone" required="" >
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="user_email">Email Address</label>
+                                        <input type="email" class="form-control" placeholder="Email Address" name="email"  required="" >
+                                    </div>
+                                </div>
+                            </div>
+
+               
+                           <div class="row">
+                                <div class="col-md-12 mx-auto text-center">
+                                    <button type="submit" class="btn academy-btn mt-30" value="submit" >Submit</button>
+                                    <a href="/log" class="btn academy-btn mt-30">login</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script src="static/assets/js/jquery-3.4.0.min.js"></script>
+    <script src="static/assets/js/popper.min.js"></script>
+    <script src="static/assets/js/jquery.easing.min.js"></script>
+    <script src="static/assets/js/bootstrap.min.js"></script>
+    <script src="static/assets/js/aos.js"></script>
+    <script src="static/assets/js/owl.carousel.min.js"></script>
+    <script src="static/assets/js/swiper.min.js"></script>
+    <script src="static/assets/js/jquery.fancybox.min.js"></script>
+    <script src="static/assets/js/jquery.waypoints.min.js"></script>
+    <script src="static/assets/js/jquery.counterup.min.js"></script>
+    <script src="static/assets/js/bootnavbar.js"></script>
+    <script src="static/assets/js/main.js"></script> -->
+</body>
+
+
+</html>
